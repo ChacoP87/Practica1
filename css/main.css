@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: right;
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 100px;
+    border-color: black;
+    height: auto;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    background-color: wheat;
+}
+
+footer {
+    text-align: right;
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 10px;
+    border-color: black;
+    height: 70px;
+}
+
+
+img {
+    margin: 1%;
+}
+
+
+nav {
+    color: red;
+    margin: 0%;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botones button {
+    margin-top: 1%;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #f8f9fa;
+    padding: 10px;
+    justify-self: center;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.botones {
+    display: inline;
+    text-align: center;
+}
+
+.input {
+    margin-top: 1%;
+    border-radius: 10px;
+    border: 10px;
+    border-color: black;
+}
+
+header nav ul {
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul .list-item {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+header nav ul .icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+
+header nav ul .img-profile {
+    /*background-image: /*url("https://lh3.googleusercontent.com/ogw/AKPQZvwknrpV4kJ6zTjqdowp_M_RdogpWEMQZMFqidg5fg=s32-c-mo") "lain-dance.gif";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    */
+    margin-right: 10px;
+    
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    height: 92px;
+    width: 272px;
+}
