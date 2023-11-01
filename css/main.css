@@ -3,11 +3,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header {
     text-align: right;
-    background-color: rgb(240, 240, 240);
     text-decoration: none;
     width: 100%;
     margin: 0;
@@ -20,24 +23,38 @@ header {
 }
 
 main {
-    height: auto;
     width: 100%;
-    background-color: wheat;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
 }
 
 footer {
-    text-align: right;
+    text-align: left;
     background-color: rgb(240, 240, 240);
-    text-decoration: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    border-bottom: 10px;
-    border-color: black;
-    height: 70px;
+    height: auto;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
 }
 
+footer hr {
+    margin: 0;
+    padding: 0;
+    color: #70757a17;
+}
+
+footer .information {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .information a {
+    color: currentColor;
+    margin: 0 13px;
+}
 
 img {
     margin: 1%;
@@ -133,4 +150,59 @@ main .main-logo{
 main .main-logo img {
     height: 92px;
     width: 272px;
+}
+
+main .main-input-container {
+    padding: 10px 15px;
+    width: 525px;
+    height: 25px;
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+main .main-input-container .search-icon {
+    height: 20px; 
+    width: 20px; 
+    margin-top: 3px; 
+    color: #9aa0a6; 
+    fill: currentColor;
+    cursor: pointer;
+}
+
+main .main-input-container .micro-icon {
+    height: 20px; 
+    width: 20px; 
+    margin-top: 3px; 
+    color: #9aa0a6; 
+    fill: currentColor;
+    cursor: pointer;
+}
+
+main .main-input {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+main .main-buttons div button {
+    margin: 0px 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    cursor: pointer;
 }
